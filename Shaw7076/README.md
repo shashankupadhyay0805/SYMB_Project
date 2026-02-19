@@ -26,3 +26,6 @@ Classrooms are sorted by floor number in ascending order. Rooms are allocated on
 ```bash
 npm install
 npm run dev
+
+
+Thank you
