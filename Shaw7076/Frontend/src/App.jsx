@@ -37,7 +37,7 @@ function App() {
 
   // Fetch classrooms from the backend when the app loads
   useEffect(() => {
-    fetch("https://shawshank-redemp.onrender.com/api/classrooms")
+    fetch("https://symb-project-uet7.onrender.com/api/classrooms")
       .then((res) => res.json())
       .then((data) => setClassrooms(data))
       .catch((err) => console.error("Error fetching data:", err));

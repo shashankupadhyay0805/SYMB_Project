@@ -99,7 +99,7 @@ function AddClassroom({ classrooms, setClassrooms }) {
 
     try {
       // Send the data to our Backend API
-      const response = await fetch("https://shawshank-redemp.onrender.com/api/classrooms", {
+      const response = await fetch("https://symb-project-uet7.onrender.com/api/classrooms", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
