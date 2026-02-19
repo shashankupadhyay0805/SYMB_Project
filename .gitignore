@@ -1,17 +1,18 @@
-# Dependencies
+# Dependency directories
 node_modules/
 Shaw7076/Backend/node_modules/
 Shaw7076/Frontend/node_modules/
 
-# Environment Variables
+# Environment variables
 .env
 Shaw7076/Backend/.env
 
 # Build outputs
 dist/
 build/
+out/
 
-# IDE files
+# IDE and OS files
 .vscode/
 .idea/
 .DS_Store
